@@ -4,12 +4,12 @@
 
 
 /**
- *bubble_sort:function that sorts an array of integers
+ *bubble_sort - function that sorts an array of integers
  *		in ascending order using the Bubble sort algorithm
  *Description:function that sorts an array of integers in ascending
  *		order using the Bubble sort algorithm
  *@array:the array to be sorted
- *@size: is a size of array 
+ *@size: is a size of array
  *Return:sorted list
  */
 
@@ -28,7 +28,7 @@ void bubble_sort(int *array, size_t size)
 	{
 		for (k = 0; k < size; k++)
 		{
-			if (array[k] > array[k+1])
+			if (array[k] > array[k + 1])
 			{
 				i = array[k];
 				array[k] = array[k + 1];
@@ -38,4 +38,4 @@ void bubble_sort(int *array, size_t size)
 		j++;
 		}
 	}
-}	
+}
