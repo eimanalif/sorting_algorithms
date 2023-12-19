@@ -26,6 +26,15 @@ void swap(int *array, size_t size, int *x, int *y)
 
 
 
+/**
+ *lomuto_partition - partitioning the array
+ *Description: to partition array
+ *@array:array to partition
+ *@size: size of array
+ *@low:lowest element
+ *@high:highest element
+ *Return: array
+ */
 
 
 size_t lomuto_partition(int *array, size_t size, ssize_t low, ssize_t high)
